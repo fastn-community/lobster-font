@@ -1,11 +1,11 @@
--- import: fifthtry.github.io/lobster-font/assets as lobster-assets
+-- import: fastn-community.github.io/lobster-font/assets as lobster-assets
 -- import: fifthtry.github.io/package-doc/doc as pd
 -- import: fifthtry.github.io/package-doc/forest-theme as ds
 -- import: fifthtry.github.io/package-doc/footer
 
 ;; ⚠️fastn-builders::⚠️ before using this file please find and replace Lobster
 ;; with font name you have given inside 
-;; `<user_name>.github.io/lobster/FASTN.ftd file
+;; `fastn-community.github.io/lobster-font/FASTN.ftd file
 
 
 
@@ -23,7 +23,7 @@ site-name: `lobster-font`
 -- end: ds.page.footer
 
 -- pd.package: FTD lobster package
-name: fifthtry.github.io/lobster-font
+name: fastn-community.github.io/lobster-font
 
 This FTD font `lobster` package is for your ftd web projects. To Use this
 lobster inside `FTD` project follow below instructions.
@@ -33,7 +33,7 @@ lobster inside `FTD` project follow below instructions.
 -- ds.code: Add this to your FASTN.ftd
 lang: ftd
 
-\-- fastn.dependency: fifthtry.github.io/lobster-font
+\-- fastn.dependency: fastn-community.github.io/lobster-font
 
 -- ds.markdown: 
 
@@ -45,7 +45,7 @@ follow below instructions.
 -- ds.code:
 lang: ftd
 
-\-- import: fifthtry.github.io/lobster-font/assets as lobster-assets
+\-- import: fastn-community.github.io/lobster-font/assets as lobster-assets
 
 
 -- ds.h3: How to create a custom lobster type? 
@@ -55,11 +55,11 @@ lang: ftd
 How to use `ftd.type` to create a custom font `types` using lobster? 
 
 We don't recommend creating custom types. We recommend to use 
-our [lobster-typography](fifthtry.github.io/lobster-typography)
+our [lobster-typography](https://fastn-community.github.io/lobster-typography)
 
-If you're using [lobster-typography](fifthtry.github.io/lobster-typography) 
+If you're using [lobster-typography](https://fastn-community.github.io/lobster-typography) 
 and still your designer has introduced new font size which is not included or 
-part of our [lobster-typography](fifthtry.github.io/lobster-typography) 
+part of our [lobster-typography](https://fastn-community.github.io/lobster-typography) 
 then only define custom types. 
 
 We hope you shouldn't need to define a custom type.
