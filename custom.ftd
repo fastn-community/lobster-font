@@ -14,7 +14,7 @@
 
 -- ds.page: 
 show-footer: true
-site-name: `lobster` Font Package
+site-name: `lobster-font`
 
 -- ds.page.footer:
 

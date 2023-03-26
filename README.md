@@ -18,30 +18,6 @@ Designers: [Impallari Type](https://fonts.google.com/?query=Impallari%20Type), [
 
 [Read the docs and demo](https://fifthtry.github.io/lobster-font).
 
-TLRD:
-
-Include fifthtry.github.io/lobster-font package into `FASTN.ftd` file:
-
-```ftd
-;-- fpm.dependency: fifthtry.github.io/lobster-font
-```
-
-Inside your `FASTN/config.ftd` use the font:
-
-```ftd
-;-- import: fifthtry.github.io/lobster-font/assets as lobster-assets
-
-;-- fastn.type.headline-small: $lobster-assets.fonts.Lobster
-```
-
-Now if in any file you do:
-
-```ftd
-;-- ftd.text:
-role: $fpm.type.headline-small
-```
-
-You will see the `Lobster` font.
 
 ## 👀 Want to learn more?
 
